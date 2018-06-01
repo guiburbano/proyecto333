@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/inicio"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/inicio" />
+        <item
+            android:id="@+id/wifi"
+            android:icon="@drawable/lateral"
+            android:title="@string/wifi" />
+        <item
+            android:id="@+id/vivedigital"
+            android:icon="@drawable/lateral"
+            android:title="@string/vive" />
+
+        <item
+            android:id="@+id/acercaDe"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/acerca" />
+    </group>
+
+
+
+</menu>
